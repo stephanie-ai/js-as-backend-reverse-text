@@ -1,0 +1,2 @@
+# js-as-backend-reverse-text
+Create a website that takes a single text input from a form. (No need for CSS) Create a node server that takes a request and returns the text reversed. Connect your front end and your backend. User story Chloë wants to get some text in reverse to send to her friends. She could manually type it out backwards but it would be much quicker using our Text Reverser app. Chloë can type text into an input and when she hits submit, she will see the same text underneath, but reversed.
