@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Message</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <!--
+        Create a website that takes a single text input from a form. (No need for CSS)
+Create a node server that takes a request and returns the text reversed.
+Connect your front end and your backend.
+User story Chloë wants to get some text in reverse to send to her friends. She could manually type it out backwards but it would be much quicker using our Text Reverser app. Chloë can type text into an input and when she hits submit, she will see the same text underneath, but reversed.
+    -->
+
+<header>
+    <h1>Welcome</h1>
+</header>
+
+<div id="main-form">
+    <form id="new-text-form" action="">
+        <label for="enterText">Please enter your text here:</label>
+        <br><br>
+        <input type="text" id="enterText" size="100" placeholder="Write here" required>
+        <br><br>
+        <input type="submit" value="Send!" id="submit">
+    </form>
+</div>
+<hr>
+<div class="returnedMsg">
+    <button id="btn">Click here to see your reversed message!</button>
+    <p></p>
+</div>
+
+<footer>&copy; Copyright 2020</footer>
+
+</body>
+</html>
+

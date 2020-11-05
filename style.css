@@ -1,0 +1,38 @@
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: teal;
+    color: white;
+}
+
+#main-form {
+    /*height: 350px;*/
+    padding: 40px;
+}
+
+#enterText {
+    width: 60vw;
+    height: 15vw;
+}
+
+#submit {
+    padding: 15px;
+    background-color: rgb(127, 212, 252);
+    color: white;
+    font-size: 18px;
+}
+
+#btn {
+    padding-bottom: 20px;
+}
+
+.returnedMsg {
+    height: 100px;
+}
+
+footer {
+    padding: 15px;
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
